@@ -4,12 +4,14 @@ node_js:
   - lts/*
 
 script:
-  - npm run lint
-  - npm test
+  - npm run lint:all
+  - npm run test:all
+  - npm run coverage
 
 jobs:
   include:
     - stage: release
       node_js: lts/*
       script:
+        - npm run build
         - npm run release
