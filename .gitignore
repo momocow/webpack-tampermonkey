@@ -1,5 +1,6 @@
 .vscode/
 dist/
+tmp*/
 
 # Logs
 logs

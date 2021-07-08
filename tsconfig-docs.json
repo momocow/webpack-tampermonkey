@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "test"
+  ],
+  "typedocOptions": {
+    "entryPoints": [
+      "index.ts"
+    ],
+    "out": "docs",
+    "name": "Webpack Userscript",
+    "includeVersion": true,
+    "excludeInternal": true
+  }
+}

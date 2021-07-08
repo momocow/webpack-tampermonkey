@@ -12,6 +12,7 @@
     },
     "include": [
         "lib",
-        "test"
+        "test",
+        "index.ts"
     ]
 }
